@@ -1,0 +1,16 @@
+# Core dependencies
+imapclient>=2.3.1
+Pillow>=8.0.0
+pystray>=0.19.4
+tk>=0.1.0
+
+# Google API dependencies
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=0.4.0
+google-auth>=1.0.0
+
+# For .env support (optional, but recommended)
+dotenv>=1.0.0
+
+# Other
+requests>=2.0.0 
