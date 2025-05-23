@@ -83,23 +83,5 @@ MIT License (see LICENSE).
 
 ---
 
-## Preparing for GitHub
 
-1. **Remove sensitive data:**  
-   - Do **NOT** upload your `.env` or `credentials.json` to GitHub.  
-   - Add them to `.gitignore`:
-     ```
-     .env
-     credentials.json
-     log.txt
-     *.db
-     ```
-2. **Check for secrets:**  
-   - Double-check all configs, logs, and scripts for plain-text accounts, passwords, tokens, etc.
-3. **完善 requirements.txt:**  
-   - Ensure all dependencies are listed.
-4. **添加 LICENSE 文件:**  
-   - MIT is declared; add a standard MIT LICENSE file.
-5. **简化/优化 README:**  
-   - As above, keep it clear and concise for open source users.
 
