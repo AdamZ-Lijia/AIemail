@@ -1,4 +1,4 @@
-# AI Email Classifier and Forwarder (Ollama Local LLM, IMAP, Gmail, iCloud)
+# AI Email Classifier and Forwarder (Ollama Local LLM, IMAP, Gmail)
 
 > **Note:** This project was fully developed using AI tools (ChatGPT, Cursor) by a non-programmer. All code was generated via natural language prompts. Please excuse any non-standard coding practices.
 
@@ -17,8 +17,8 @@ It uses local LLMs via Ollama, integrates with Gmail (IMAP + Gmail API), and sup
   Each message is labeled and processed only once.
 - **Windows Tray App:**  
   Background service with tray icon for pause/resume/exit.
-- **iCloud/SMTP Support:**  
-  Forwarding to iCloud or any SMTP-compatible address.
+- **iCloud Support:**  
+  Uses Gmail API (not SMTP) for forwarding and custom subject prefixing.
 - **Offline/Local-First:**  
   No external/paid AI APIs; all processing is local.
 - **Logging:**  
